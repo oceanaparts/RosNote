@@ -1,0 +1,2717 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>13.1.1代码编辑 · oceanaparts's RosNote</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="oceanaparts">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.2.html" />
+    
+    
+
+    
+        <link rel="shortcut icon" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../source/images/apple-touch-icon.jpg'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../source/images/apple-touch-icon.jpg">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../source/images/apple-touch-icon.jpg">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"oceanaparts","repo":"RosNote","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/oceanaparts" target="_blank" class="custom-link">我的小窝</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../readme.html">
+            
+                <a href="../readme.html">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../part1/readme.html">
+            
+                <a href="../part1/readme.html">
+            
+                    
+                    1.catkin工作空间
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../part1/1.html">
+            
+                <a href="../part1/1.html">
+            
+                    
+                    1.1具体项目空间建立如下
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../part1/2.html">
+            
+                <a href="../part1/2.html">
+            
+                    
+                    1.2编译
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../part2/readme.html">
+            
+                <a href="../part2/readme.html">
+            
+                    
+                    2.功能包中的src文件夹下分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../part2/1.html">
+            
+                <a href="../part2/1.html">
+            
+                    
+                    2.1 主要文件分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../part3/readme.html">
+            
+                <a href="../part3/readme.html">
+            
+                    
+                    3.常用包管理指令
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../part3/1.html">
+            
+                <a href="../part3/1.html">
+            
+                    
+                    3.1 rospack list 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../part3/2.html">
+            
+                <a href="../part3/2.html">
+            
+                    
+                    3.2 git clone与安装依赖包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../part3/3.html">
+            
+                <a href="../part3/3.html">
+            
+                    
+                    3.3 rosls
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../part4/readme.html">
+            
+                <a href="../part4/readme.html">
+            
+                    
+                    4.Metpackage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../part5/readme.html">
+            
+                <a href="../part5/readme.html">
+            
+                    
+                    5.常用包管理指令
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../part5/1.html">
+            
+                <a href="../part5/1.html">
+            
+                    
+                    5.1 master
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../part5/2.html">
+            
+                <a href="../part5/2.html">
+            
+                    
+                    5.2 node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../part5/3.html">
+            
+                <a href="../part5/3.html">
+            
+                    
+                    5.3 launch文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    6.通讯方式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../part6/1.html">
+            
+                <a href="../part6/1.html">
+            
+                    
+                    6.1 Topic通讯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../part6/2.html">
+            
+                <a href="../part6/2.html">
+            
+                    
+                    6.2 Message
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../part6/3.html">
+            
+                <a href="../part6/3.html">
+            
+                    
+                    6.3 Topic与msg具体操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../part6/4.html">
+            
+                <a href="../part6/4.html">
+            
+                    
+                    6.4 Service通讯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../part6/5.html">
+            
+                <a href="../part6/5.html">
+            
+                    
+                    6.5 srv
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../part6/6.html">
+            
+                <a href="../part6/6.html">
+            
+                    
+                    6.6 参数服务器Parameter Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../part6/7.html">
+            
+                <a href="../part6/7.html">
+            
+                    
+                    6.7 Service与srv具体操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="../part6/8.html">
+            
+                <a href="../part6/8.html">
+            
+                    
+                    6.8 rosparam具体操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    7.Topic通讯操作实例(C++版)--从vscode创建C++环境说起
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../part7/1.html">
+            
+                <a href="../part7/1.html">
+            
+                    
+                    7.1 创建 ROS 工作空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../part7/2.html">
+            
+                <a href="../part7/2.html">
+            
+                    
+                    7.2 在工作空间文件夹找下启动 vscode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../part7/3.html">
+            
+                <a href="../part7/3.html">
+            
+                    
+                    7.3 在vscode 中编译 ros（配置编译环境）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../part7/4.html">
+            
+                <a href="../part7/4.html">
+            
+                    
+                    7.4 创建 ROS 功能包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../part7/5.html">
+            
+                <a href="../part7/5.html">
+            
+                    
+                    7.5 编写发布者代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../part7/6.html">
+            
+                <a href="../part7/6.html">
+            
+                    
+                    7.6 修改CMakeLists.txt文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../part7/7.html">
+            
+                <a href="../part7/7.html">
+            
+                    
+                    7.7 编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="../part7/8.html">
+            
+                <a href="../part7/8.html">
+            
+                    
+                    7.8 运行结果分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.9" data-path="../part7/9.html">
+            
+                <a href="../part7/9.html">
+            
+                    
+                    7.9 节点的结束
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.10" data-path="../part7/10.html">
+            
+                <a href="../part7/10.html">
+            
+                    
+                    7.10 完善发布逻辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.11" data-path="../part7/11.html">
+            
+                <a href="../part7/11.html">
+            
+                    
+                    7.11 编写订阅者代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.12" data-path="../part7/12.html">
+            
+                <a href="../part7/12.html">
+            
+                    
+                    7.12 修改CMakeLists.txt文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.13" data-path="../part7/13.html">
+            
+                <a href="../part7/13.html">
+            
+                    
+                    7.13 编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.14" data-path="../part7/14.html">
+            
+                <a href="../part7/14.html">
+            
+                    
+                    7.14 补充
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.15" data-path="../part7/15.html">
+            
+                <a href="../part7/15.html">
+            
+                    
+                    7.15 使用launch同时启动多个节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.16" data-path="../part7/16.html">
+            
+                <a href="../part7/16.html">
+            
+                    
+                    7.16 使用launch运行与rosrun运行结果的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.17" data-path="../part7/17.html">
+            
+                <a href="../part7/17.html">
+            
+                    
+                    7.17 计算图查看
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../part8/readme.html">
+            
+                <a href="../part8/readme.html">
+            
+                    
+                    8.Topic通讯操作实例(Python版)--包含vscode运行python环境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../part8/1.html">
+            
+                <a href="../part8/1.html">
+            
+                    
+                    8.1 发布方代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../part8/2.html">
+            
+                <a href="../part8/2.html">
+            
+                    
+                    8.2 订阅方代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../part8/3.html">
+            
+                <a href="../part8/3.html">
+            
+                    
+                    8.3 添加可执行权限
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../part8/4.html">
+            
+                <a href="../part8/4.html">
+            
+                    
+                    8.4 配置 CMakeLists.txt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../part8/5.html">
+            
+                <a href="../part8/5.html">
+            
+                    
+                    8.5编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../part9/readme.html">
+            
+                <a href="../part9/readme.html">
+            
+                    
+                    9.自定义msg
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../part9/1.html">
+            
+                <a href="../part9/1.html">
+            
+                    
+                    9.1 新建与编写msg文件（基于8小节的工程项目下进行）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../part9/2.html">
+            
+                <a href="../part9/2.html">
+            
+                    
+                    9.2 修改package.xml文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" >
+            
+                <span>
+            
+                    
+                    9.3 修改CMakeList.txt文件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.3.1" data-path="../part9/3.1.html">
+            
+                <a href="../part9/3.1.html">
+            
+                    
+                    9.3.1 find_package修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3.2" data-path="../part9/3.2.html">
+            
+                <a href="../part9/3.2.html">
+            
+                    
+                    9.3.2 add_message_files修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3.3" data-path="../part9/3.3.html">
+            
+                <a href="../part9/3.3.html">
+            
+                    
+                    9.3.3 generate_messages修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3.4" data-path="../part9/3.4.html">
+            
+                <a href="../part9/3.4.html">
+            
+                    
+                    9.3.4 catkin_package修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" >
+            
+                <span>
+            
+                    
+                    9.4编译生成的中间文件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.4.1" data-path="../part9/4.1.html">
+            
+                <a href="../part9/4.1.html">
+            
+                    
+                    9.4.1 编译后的中间文件查看（C++）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4.2" data-path="../part9/4.2.html">
+            
+                <a href="../part9/4.2.html">
+            
+                    
+                    9.4.2 编译后的中间文件查看（Python）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    10.自定义msg使用(C++)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../part10/1.html">
+            
+                <a href="../part10/1.html">
+            
+                    
+                    10.1 准备工作-vscode配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../part10/2.html">
+            
+                <a href="../part10/2.html">
+            
+                    
+                    10.2 发布方实现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.2.1" data-path="../part10/2.1.html">
+            
+                <a href="../part10/2.1.html">
+            
+                    
+                    10.2.1修改CMakeList.txt文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2.2" data-path="../part10/2.2.html">
+            
+                <a href="../part10/2.2.html">
+            
+                    
+                    10.2.2编译运行结果如下：
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="../part10/3.html">
+            
+                <a href="../part10/3.html">
+            
+                    
+                    10.3 订阅方实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <span>
+            
+                    
+                    11.自定义msg使用(Python)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../part11/1.html">
+            
+                <a href="../part11/1.html">
+            
+                    
+                     11.1 准备工作-vscode配置（ settings.json文件修改）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="../part11/2.html">
+            
+                <a href="../part11/2.html">
+            
+                    
+                    11.2 发布方实现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.2.1" data-path="../part11/2.1md">
+            
+                <span>
+            
+                    
+                    11.2.1 添加可执行权限,配置CMakeLists,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.3" data-path="../part11/3.html">
+            
+                <a href="../part11/3.html">
+            
+                    
+                    11.3 订阅方实现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.3.1" data-path="../part11/3.1md">
+            
+                <span>
+            
+                    
+                    11.3.1 添加可执行权限,配置CMakeLists,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <span>
+            
+                    
+                    12.Service通讯操作实例
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../part12/1.html">
+            
+                <a href="../part12/1.html">
+            
+                    
+                    12.1 服务通信自定义srv
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1.1" data-path="../part12/1.1.html">
+            
+                <a href="../part12/1.1.html">
+            
+                    
+                    12.1.1 srv文件创建与代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.1.2" data-path="../part12/1.2.html">
+            
+                <a href="../part12/1.2.html">
+            
+                    
+                    12.1.2 编辑配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.1.3" data-path="../part12/1.3.html">
+            
+                <a href="../part12/1.3.html">
+            
+                    
+                    12.1.3 编译产生中间文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="../part12/2.html">
+            
+                <a href="../part12/2.html">
+            
+                    
+                    12.2 服务通信自定义srv调用(C++)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.2.1" data-path="../part12/2.1.html">
+            
+                <a href="../part12/2.1.html">
+            
+                    
+                    12.2.1 准备工作--vscode配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.2" data-path="../part12/2.2.html">
+            
+                <a href="../part12/2.2.html">
+            
+                    
+                    12.2.2 服务器端编写
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.2.2.1" data-path="../part12/2.2.1.html">
+            
+                <a href="../part12/2.2.1.html">
+            
+                    
+                    12.02.2.1文件创建于代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.2.2" data-path="../part12/2.2.2.html">
+            
+                <a href="../part12/2.2.2.html">
+            
+                    
+                    12.2.2.2 CMakeLists.txt配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.2.3" data-path="../part12/2.2.3.html">
+            
+                <a href="../part12/2.2.3.html">
+            
+                    
+                    12.2.2.3 编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.3" data-path="../part12/2.3.html">
+            
+                <a href="../part12/2.3.html">
+            
+                    
+                    12.2.3 客户端编写
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.2.3.1" data-path="../part12/2.3.1.html">
+            
+                <a href="../part12/2.3.1.html">
+            
+                    
+                    12.2.3.1 文件创建于代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.3.2" data-path="../part12/2.3.2.html">
+            
+                <a href="../part12/2.3.2.html">
+            
+                    
+                    12.2.3.2 CMakeLists.txt配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.3.3" data-path="../part12/2.3.3.html">
+            
+                <a href="../part12/2.3.3.html">
+            
+                    
+                    12.2.3.3 编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.4" data-path="../part12/2.4.html">
+            
+                <a href="../part12/2.4.html">
+            
+                    
+                    12.2.4 客户端优化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.2.4.1" data-path="../part12/2.4.1.html">
+            
+                <a href="../part12/2.4.1.html">
+            
+                    
+                    12.2.4.1 代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.4.2" data-path="../part12/2.4.2.html">
+            
+                <a href="../part12/2.4.2.html">
+            
+                    
+                    12.2.4.2 CMakeLists.txt配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2.4.3" data-path="../part12/2.4.3.html">
+            
+                <a href="../part12/2.4.3.html">
+            
+                    
+                    12.2.4.3 编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3" data-path="../part12/3.html">
+            
+                <a href="../part12/3.html">
+            
+                    
+                    12.3 服务通信自定义srv调用(Python)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.3.1" data-path="../part12/3.1.html">
+            
+                <a href="../part12/3.1.html">
+            
+                    
+                    12.3.1 准备工作--vscode配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3.2" data-path="../part12/3.2.html">
+            
+                <a href="../part12/3.2.html">
+            
+                    
+                    12.3.2 服务器端编写
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.3.2.1" data-path="../part12/3.2.1.html">
+            
+                <a href="../part12/3.2.1.html">
+            
+                    
+                    12.3.2.1 文件创建与代码编写
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.3.2.1.1" data-path="../part12/3.2.2.html">
+            
+                <a href="../part12/3.2.2.html">
+            
+                    
+                    12.3.2.2 添加可执行权限,CMakeLists.txt配置,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3.3" data-path="../part12/3.3.html">
+            
+                <a href="../part12/3.3.html">
+            
+                    
+                    12.3.3客户端编写
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.3.3.1" data-path="../part12/3.3.1.html">
+            
+                <a href="../part12/3.3.1.html">
+            
+                    
+                    12.3.3.1 文件创建与代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3.3.2" data-path="../part12/3.3.2.html">
+            
+                <a href="../part12/3.3.2.html">
+            
+                    
+                    12.3.3.1 添加可执行权限,CMakeLists.txt配置,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3.4" data-path="../part12/3.4.html">
+            
+                <a href="../part12/3.4.html">
+            
+                    
+                    12.3.4 客户端优化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.3.4.1" data-path="../part12/3.4.1.html">
+            
+                <a href="../part12/3.4.1.html">
+            
+                    
+                    12.3.4.1 代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.3.4.2" data-path="../part12/3.4.2.html">
+            
+                <a href="../part12/3.4.2.html">
+            
+                    
+                    12.3.4.1 添加可执行权限,CMakeLists.txt配置,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    13.参数服务器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" >
+            
+                <span>
+            
+                    
+                    13.1参数增加与修改(C++)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    13.1.1代码编辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    13.1.2 修改CMakeList.txt文件,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <span>
+            
+                    
+                    13.2 参数查找(C++)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="2.1.html">
+            
+                <a href="2.1.html">
+            
+                    
+                    13.2.1 代码编辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="2.2.html">
+            
+                <a href="2.2.html">
+            
+                    
+                    13.2.2   修改CMakeList.txt文件,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" >
+            
+                <span>
+            
+                    
+                    13.3 参数删除(C++)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="3.1.html">
+            
+                <a href="3.1.html">
+            
+                    
+                    13.3.1 代码编辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="3.2.html">
+            
+                <a href="3.2.html">
+            
+                    
+                    13.3.2 修改CMakeList.txt文件,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="4.html">
+            
+                <a href="4.html">
+            
+                    
+                    13.4 Python版不在赘述直接看原文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    14.Topic通讯案例--小乌龟移动的控制(话题发布)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../part14/1.html">
+            
+                <a href="../part14/1.html">
+            
+                    
+                    14.1 确定通讯的话题和消息类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" >
+            
+                <span>
+            
+                    
+                    14.2 实现发布节点（C++）
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" data-path="../part14/2.1.html">
+            
+                <a href="../part14/2.1.html">
+            
+                    
+                    14.2.1 代码实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2.2" data-path="../part14/2.2.html">
+            
+                <a href="../part14/2.2.html">
+            
+                    
+                    14.2.2 修改CMakeList.txt文件,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" >
+            
+                <span>
+            
+                    
+                    14.3 实现发布节点（Python）
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.3.1" data-path="../part14/3.1.html">
+            
+                <a href="../part14/3.1.html">
+            
+                    
+                     14.3.1代码编辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3.2" data-path="../part14/3.2.html">
+            
+                <a href="../part14/3.2.html">
+            
+                    
+                    14.3.2修改CMakeList.txt文件,添加可执行权限,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../part15/1.html">
+            
+                <a href="../part15/1.html">
+            
+                    
+                    15.Topic通讯案例--小乌龟位姿的获取(话题订阅)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../part15/1.html">
+            
+                <a href="../part15/1.html">
+            
+                    
+                    15.1确定通讯的话题和消息类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                    15.2实现订阅节点(C++)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.1" data-path="../part15/2.1.html">
+            
+                <a href="../part15/2.1.html">
+            
+                    
+                    15.2.1添加依赖功能包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.2" data-path="../part15/2.2.html">
+            
+                <a href="../part15/2.2.html">
+            
+                    
+                    15.2.2代码编写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.3" data-path="../part15/2.3.html">
+            
+                <a href="../part15/2.3.html">
+            
+                    
+                    15.2.3 修改CMakeLists.txt文件,编译运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../part15/3.html">
+            
+                <a href="../part15/3.html">
+            
+                    
+                    15.3实现订阅节点（Python）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../part16/readme.html">
+            
+                <a href="../part16/readme.html">
+            
+                    
+                    16.服务调用案例--添加小乌龟
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../part17/readme.html">
+            
+                <a href="../part17/readme.html">
+            
+                    
+                    17.参数设置案例--设置小乌龟背景颜色
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../part18/readme.html">
+            
+                <a href="../part18/readme.html">
+            
+                    
+                    18.通讯机制比较
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" >
+            
+                <span>
+            
+                    
+                    19.通讯机制进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" >
+            
+                <span>
+            
+                    
+                    19.1 常用API
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1.1" data-path="../part19/1.1.html">
+            
+                <a href="../part19/1.1.html">
+            
+                    
+                    19.1.1 初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.1.2" data-path="../part19/1.2.html">
+            
+                <a href="../part19/1.2.html">
+            
+                    
+                    19.1.2 话题与服务相关对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.1.3" data-path="../part19/1.3.html">
+            
+                <a href="../part19/1.3.html">
+            
+                    
+                    19.1.3 回旋函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.1.4" data-path="../part19/1.4.html">
+            
+                <a href="../part19/1.4.html">
+            
+                    
+                    19.1.4 时间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.1.5" data-path="../part19/1.5.html">
+            
+                <a href="../part19/1.5.html">
+            
+                    
+                    19.1.5 其他函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2" >
+            
+                <span>
+            
+                    
+                    19.2 ROS的头文件与源文件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.2.1" data-path="../part19/2.1.html">
+            
+                <a href="../part19/2.1.html">
+            
+                    
+                    19.2.1 自定义头文件调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.2" data-path="../part19/2.2.html">
+            
+                <a href="../part19/2.2.html">
+            
+                    
+                    19.2.2 自定义源文件调用(头文件的函数在对应CPP文件中实现)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.3" data-path="../part19/3.html">
+            
+                <a href="../part19/3.html">
+            
+                    
+                    19.3 Python模块的导入
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" >
+            
+                <span>
+            
+                    
+                     20.ROS运行管理
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../part20/1.html">
+            
+                <a href="../part20/1.html">
+            
+                    
+                    20.1 ROS元功能包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="../part20/2.html">
+            
+                <a href="../part20/2.html">
+            
+                    
+                    20.2 ROS节点管理launch文件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.2.1" data-path="../part20/2.1.html">
+            
+                <a href="../part20/2.1.html">
+            
+                    
+                    20.2.1 launch文件标签之launch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2.2" data-path="../part20/2.2.html">
+            
+                <a href="../part20/2.2.html">
+            
+                    
+                    20.2.2 launch文件标签之node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2.3" data-path="../part20/2.3.html">
+            
+                <a href="../part20/2.3.html">
+            
+                    
+                    20.2.3 launch文件标签之remap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2.4" data-path="../part20/2.4.html">
+            
+                <a href="../part20/2.4.html">
+            
+                    
+                    20.2.4 launch文件标签之param
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2.5" data-path="../part20/2.5.html">
+            
+                <a href="../part20/2.5.html">
+            
+                    
+                    20.2.5 launch文件标签之rosparam
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2.6" data-path="../part20/2.6.html">
+            
+                <a href="../part20/2.6.html">
+            
+                    
+                    20.2.6 launch文件标签之group
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2.7" data-path="../part20/2.7.html">
+            
+                <a href="../part20/2.7.html">
+            
+                    
+                    20.2.7 launch文件标签之arg
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="../part20/3.html">
+            
+                <a href="../part20/3.html">
+            
+                    
+                    20.3 ROS工作空间覆盖
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" data-path="../part20/4.html">
+            
+                <a href="../part20/4.html">
+            
+                    
+                    20.4 ROS节点名称重名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.5" data-path="../part20/5.html">
+            
+                <a href="../part20/5.html">
+            
+                    
+                    20.5 ROS话题名称重名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.6" data-path="../part20/6.html">
+            
+                <a href="../part20/6.html">
+            
+                    
+                    20.6 ROS参数名称设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.7" data-path="../part20/7.html">
+            
+                <a href="../part20/7.html">
+            
+                    
+                    20.7 ROS分布式通讯
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" >
+            
+                <span>
+            
+                    
+                    21.ROS常用组件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" >
+            
+                <span>
+            
+                    
+                    21.1 TF坐标变换
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1.1" data-path="../part21/1.1.html">
+            
+                <a href="../part21/1.1.html">
+            
+                    
+                    21.1.1 坐标msg消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.1.2" data-path="../part21/1.2.html">
+            
+                <a href="../part21/1.2.html">
+            
+                    
+                    21.1.2静态坐标变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.1.3" data-path="../part21/1.3.html">
+            
+                <a href="../part21/1.3.html">
+            
+                    
+                    21.1.3 实现多个静态坐标变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.1.4" data-path="../part21/1.4.html">
+            
+                <a href="../part21/1.4.html">
+            
+                    
+                    21.1.4 动态坐标变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.1.5" data-path="../part21/1.5.html">
+            
+                <a href="../part21/1.5.html">
+            
+                    
+                    21.1.5 多坐标变换
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >13.1.1代码编辑</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="13&#x53C2;&#x6570;&#x670D;&#x52A1;&#x5668;">13.&#x53C2;&#x6570;&#x670D;&#x52A1;&#x5668;</h1>
+<h2 id="131&#x53C2;&#x6570;&#x589E;&#x52A0;&#x4E0E;&#x4FEE;&#x6539;c">13.1&#x53C2;&#x6570;&#x589E;&#x52A0;&#x4E0E;&#x4FEE;&#x6539;(C++)</h2>
+<h3 id="1311&#x4EE3;&#x7801;&#x7F16;&#x8F91;">13.1.1&#x4EE3;&#x7801;&#x7F16;&#x8F91;</h3>
+<p>&#x65B0;&#x5EFA;&#x529F;&#x80FD;&#x5305;plumbing_param_server&#xFF0C;&#x5728;src&#x4E0B;&#x65B0;&#x5EFA;cpp&#x6587;&#x4EF6;demo01_param_set.cpp&#x3002;<br>&#x4EE3;&#x7801;&#x5982;&#x4E0B;:</p>
+<pre><code>/*&#x5B9E;&#x73B0;&#x65B0;&#x589E;&#x4E0E;&#x4FEE;&#x6539;&#x53C2;&#x6570;
+&#x9700;&#x6C42;&#xFF1A;&#x9996;&#x5148;&#x8BBE;&#x7F6E;&#x673A;&#x5668;&#x4EBA;&#x7684;&#x5171;&#x4EAB;&#x53C2;&#x6570;&#xFF0C;&#x7C7B;&#x578B;&#xFF0C;&#x534A;&#x5F84;(0.15m),
+&#x518D;&#x4FEE;&#x6539;&#x534A;&#x5F84;(0.2m)
+&#x5B9E;&#x73B0; &#xFF1A;&#x5728; roscpp &#x4E2D;&#x63D0;&#x4F9B;&#x4E86;&#x4E24;&#x5957; API &#x5B9E;&#x73B0;&#x53C2;&#x6570;&#x64CD;&#x4F5C;
+ros::NodeHandle
+    setParam(&quot;&#x952E;&quot;,&#x503C;)
+ros::param
+    set(&quot;&#x952E;&quot;,&quot;&#x503C;&quot;)
+*/
+#include &quot;ros/ros.h&quot;
+int main(int argc,char*argv[])
+{
+    ros::init(argc,argv,&quot;set_param_c&quot;);
+    ros::NodeHandle nh;
+    //&#x53C2;&#x6570;&#x65B0;&#x589E;
+    //&#x65B9;&#x6848;&#x4E00;
+    nh.setParam(&quot;type&quot;,&quot;xiaoHuang&quot;);
+    nh.setParam(&quot;radious&quot;,0.15);
+    //&#x65B9;&#x6848;&#x4E8C;
+    ros::param::set(&quot;type_param&quot;,&quot;xiaoBai&quot;);
+    ros::param::set(&quot;radious_param&quot;,0.15);
+    //&#x53C2;&#x6570;&#x4FEE;&#x6539;
+    //&#x53C2;&#x6570;&#x7684;&#x91CD;&#x5199;&#x5C31;&#x4F1A;&#x8986;&#x76D6;&#x539F;&#x6709;&#x503C;&#xFF0C;&#x5C31;&#x662F;&#x4FEE;&#x6539;
+    nh.setParam(&quot;radious&quot;,0.2);
+    ros::param::set(&quot;radious_param&quot;,0.25);
+
+
+
+} 
+</code></pre><footer class="page-footer"><span class="copyright">Copyright &amp;oceanaparts all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-03-14
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="1.2.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 13.1.2 修改CMakeList.txt文件,编译运行">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"13.1.1代码编辑","level":"2.1.1.1","depth":3,"next":{"title":"13.1.2 修改CMakeList.txt文件,编译运行","level":"2.1.1.2","depth":3,"path":"part13/1.2.md","ref":"part13/1.2.md","articles":[]},"previous":{"title":"13.1参数增加与修改(C++)","level":"2.1.1","depth":2,"ref":"","articles":[{"title":"13.1.1代码编辑","level":"2.1.1.1","depth":3,"path":"part13/1.1.md","ref":"part13/1.1.md","articles":[]},{"title":"13.1.2 修改CMakeList.txt文件,编译运行","level":"2.1.1.2","depth":3,"path":"part13/1.2.md","ref":"part13/1.2.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","splitter","expandable-chapters","chapter-fold","tbfed-pagefooter","copy-code-button","github","github-buttons","donate","sharing-plus","back-to-top-button","favicon","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &oceanaparts","modify_label":"该文件修订时间：","modify_format":"2022-03-14"},"chapter-fold":{},"github":{"url":"https://github.com/oceanaparts"},"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"donate":{"alipay":"./source/images/donate.png","alipayText":" ","button":"赞赏","title":"","wechat":"","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false},"favicon":{"shortcut":"./source/images/favicon.jpg","bookmark":"./source/images/favicon.jpg","appleTouch":"./source/images/apple-touch-icon.jpg","appleTouchMore":{"120x120":"./source/images/apple-touch-icon.jpg","180x180":"./source/images/apple-touch-icon.jpg"}},"back-to-top-button":{},"github-buttons":{"buttons":[{"user":"oceanaparts","repo":"RosNote","type":"star","size":"small","count":true}]},"copy-code-button":{},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"oceanaparts","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"oceanaparts's RosNote","language":"zh-hans","links":{"sidebar":{"我的小窝":"https://github.com/oceanaparts"}},"gitbook":"3.2.3","description":"select * from learn"},"file":{"path":"part13/1.1.md","mtime":"2022-03-14T08:44:00.521Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-14T11:44:22.938Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
